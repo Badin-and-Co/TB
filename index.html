@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Websites by Tamarah</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">TB</a>
+      
+      	<ul class="nav-links" id="navLinks">
+  			<li><a href="#services" data-i18n="navServices">Services</a></li>
+  			<li><a href="#process" data-i18n="navProcess">Process</a></li>
+  			<li><a href="#pricing" data-i18n="navPricing">Pricing</a></li>
+  			<li><a href="#demos" data-i18n="navDemos">Demos</a></li>
+  			<li><a href="#contact" data-i18n="navContact">Contact</a></li>
+		</ul>
+      
+      	<div class="language-switch" aria-label="Language switcher">
+  			<button type="button" class="lang-btn active" data-lang="en">ENG</button>
+  			<button type="button" class="lang-btn" data-lang="es">ESP</button>
+		</div>
+      	
+      	<button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">Simple • Elegant • Informational Websites</p>
+        <h1 data-i18n="heroTitle">Professional websites for businesses, brands, and personal projects.</h1>
+        <p class="hero-text">
+          <span data-i18n="heroText">I create clean informational websites without databases. You choose the pages you need, and I help bring your idea to life with a polished, easy-to-use design.</span>
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary" data-i18n="bookConsultation">Book a Consultation</a>
+          <a href="#pricing" class="btn secondary" data-i18n="viewServices">View Services</a>
+        </div>
+      </div>
+      <div class="hero-card human-photo-card">
+        <img src="custom.png" alt="Warm desk with laptop and coffee for website planning" class="hero-photo">
+        <div class="photo-note">
+          <span data-i18n="starter">Website Starter</span>
+          <h2 data-i18n="starterTitle">Custom design proposal included</h2>
+          <p data-i18n="starterText">We talk about your vision, your goals, and the style you want. Then I propose how your website could look before moving forward.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section reveal-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="offerEyebrow">What I offer</p>
+        <h2 data-i18n="offerTitle">Websites that look professional without being complicated.</h2>
+      </div>
+      <p class="section-description">
+        <span data-i18n="offerText">Perfect for small businesses, real estate professionals, service providers, events, personal brands, portfolios, and simple online information pages.</span>
+      </p>
+    </section>
+
+    <section class="studio-note reveal-section" aria-label="Personal website planning note">
+      <div class="studio-image-wrap">
+        <img src="smile.png" alt="People planning a creative project together" class="studio-image">
+      </div>
+      <div class="studio-copy">
+        <p class="eyebrow" data-i18n="studioEyebrow">A more personal process</p>
+        <h2 data-i18n="studioTitle">Your website should feel like you — not like a template.</h2>
+        <p data-i18n="studioText">I like to understand the story behind your business first: the feeling you want people to have, the information they need, and the little details that make your brand feel real.</p>
+        <div class="soft-points">
+          <span data-i18n="point1">Warm visuals</span>
+          <span data-i18n="point2">Clear sections</span>
+          <span data-i18n="point3">Easy contact</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services reveal-section" id="services">
+      <article class="service-card">
+        <div class="icon">01</div>
+        <h3 data-i18n="service1Title">Informational Websites</h3>
+        <p data-i18n="service1Text">Clean websites with sections like Home, About, Services, Gallery, FAQs, and Contact. No database required.</p>
+      </article>
+      <article class="service-card">
+        <div class="icon">02</div>
+        <h3 data-i18n="service2Title">Pay Per Page</h3>
+        <p data-i18n="service2Text">You only pay for the pages you need. Simple, flexible, and easy to understand.</p>
+      </article>
+      <article class="service-card">
+        <div class="icon">03</div>
+        <h3 data-i18n="service3Title">Domain Assistance</h3>
+        <p data-i18n="service3Text">I can investigate domain options for you. You decide if you want to purchase one, and I can help set it up.</p>
+      </article>
+      <article class="service-card">
+        <div class="icon">04</div>
+        <h3 data-i18n="service4Title">Maintenance Options</h3>
+        <p data-i18n="service4Text">No monthly fee unless changes are needed, or choose a monthly plan for unlimited website changes.</p>
+      </article>
+      <!--
+      <article class="service-card featured-service">
+        <div class="icon">05</div>
+        <h3 data-i18n="service5Title">Personalized Invitations</h3>
+        <p data-i18n="service5Text">Custom digital invitations for weddings, events, and special celebrations with a beautiful preview link guests can open online.</p>
+        <button class="text-link preview-btn" type="button" data-preview-url="https://badin-and-co.github.io/Demo-Invitation/" data-i18n="previewInvitation">Preview Invitation Demo</button>
+      </article>
+      -->
+    </section>
+
+    <section class="process reveal-section" id="process">
+      <div class="section-heading centered">
+        <p class="eyebrow" data-i18n="processEyebrow">How it works</p>
+        <h2 data-i18n="processTitle">From idea to website in a clear step-by-step process.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>1</span>
+          <h3 data-i18n="step1Title">Consultation</h3>
+          <p data-i18n="step1Text">We talk about what you want, your style, your business, and what pages you need.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2</span>
+          <h3 data-i18n="step2Title">Website Idea Proposal</h3>
+          <p data-i18n="step2Text">I propose a website direction, layout, colors, and structure based on your goals.</p>
+        </div>
+        <div class="timeline-item">
+          <span>3</span>
+          <h3 data-i18n="step3Title">Design & Build</h3>
+          <p data-i18n="step3Text">Once approved, I create your website pages and make sure they look good on desktop and phone.</p>
+        </div>
+        <div class="timeline-item">
+          <span>4</span>
+          <h3 data-i18n="step4Title">Launch Support</h3>
+          <p data-i18n="step4Text">If you want a domain, I help with setup after you approve and purchase it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing reveal-section" id="pricing">
+      <div class="section-heading centered">
+        <p class="eyebrow" data-i18n="pricingEyebrow">Website Packages</p>
+        <h2 data-i18n="pricingTitle">Choose the package that fits your business right now.</h2>
+        <p class="section-description" data-i18n="pricingIntro">All packages are one-time payments and include Badin-and-Co hosting. If you already have a domain, I can connect it for you.</p>
+      </div>
+
+      <div class="consultation-banner">
+        <div>
+          <p class="eyebrow" data-i18n="consultEyebrow">Start here</p>
+          <h3 data-i18n="consultTitle">Consultation — $49</h3>
+          <p data-i18n="consultText">We talk about your vision, what you need, your style, and I propose an idea of how your website could look before moving forward.</p>
+        </div>
+        <button class="btn primary" data-service="Consultation - $49" data-i18n="bookConsultation">Book a Consultation</button>
+      </div>
+
+      <div class="pricing-grid package-grid">
+        <article class="price-card package-card">
+          <h3 data-i18n="basicTitle">Basic Package</h3>
+          <p class="price" data-i18n="basicPrice">$399</p>
+          <p class="payment-note" data-i18n="oneTime">One-time payment</p>
+          <ul class="package-list">
+            <li data-i18n="basicItem1">Badin-and-Co hosting included</li>
+            <li data-i18n="basicItem2">If you already have a domain, I can connect it</li>
+            <li data-i18n="basicItem3">One scroll-down page</li>
+            <li data-i18n="basicItem4">Home section</li>
+            <li data-i18n="basicItem5">Who you are / Mission / Vision</li>
+            <li data-i18n="basicItem6">Contact information only — no form</li>
+            <li data-i18n="basicItem7">No maintenance included</li>
+            <li data-i18n="basicItem8">You receive your website code</li>
+          </ul>
+          <button class="btn card-btn" data-service="Basic Package - $399" data-i18n="requestInfo">Request Info</button>
+        </article>
+
+        <article class="price-card package-card featured">
+          <div class="badge" data-i18n="mostPopular">Most Popular</div>
+          <h3 data-i18n="proTitle">Pro Package</h3>
+          <p class="price" data-i18n="proPrice">$599</p>
+          <p class="payment-note" data-i18n="oneTime">One-time payment</p>
+          <ul class="package-list">
+            <li data-i18n="proItem1">Badin-and-Co hosting included</li>
+            <li data-i18n="proItem2">If you already have a domain, I can connect it</li>
+            <li data-i18n="proItem3">Two scroll-down pages</li>
+            <li data-i18n="proItem4">Home section</li>
+            <li data-i18n="proItem5">Who you are / Mission / Vision</li>
+            <li data-i18n="proItem6">Contact form connected to your email</li>
+            <li data-i18n="proItem7">No maintenance included</li>
+            <li data-i18n="proItem8">You receive your website code</li>
+          </ul>
+          <button class="btn card-btn" data-service="Pro Package - $599" data-i18n="requestInfo">Request Info</button>
+        </article>
+
+        <article class="price-card package-card elite-card">
+          <h3 data-i18n="eliteTitle">Elite Package</h3>
+          <p class="price" data-i18n="elitePrice">$1,299</p>
+          <p class="payment-note" data-i18n="oneTime">One-time payment</p>
+          <ul class="package-list">
+            <li data-i18n="eliteItem1">Badin-and-Co hosting included</li>
+            <li data-i18n="eliteItem2">If you already have a domain, I can connect it</li>
+            <li data-i18n="eliteItem3">Up to 5 custom pages</li>
+            <li data-i18n="eliteItem4">Home, About, Mission/Vision, Services, and Contact</li>
+            <li data-i18n="eliteItem5">Contact form setup</li>
+            <li data-i18n="eliteItem6">Project gallery or portfolio section</li>
+            <li data-i18n="eliteItem7">Bilingual option ENG / SPA</li>
+            <li data-i18n="eliteItem8">Premium animations and mobile optimization</li>
+            <li data-i18n="eliteItem9">You receive your website code</li>
+          </ul>
+          <button class="btn card-btn" data-service="Elite Package - $1299" data-i18n="requestInfo">Request Info</button>
+        </article>
+      </div>
+
+      <div class="ala-carte-box">
+        <div class="section-heading centered">
+          <p class="eyebrow" data-i18n="alaCarteEyebrow">A la carte</p>
+          <h2 data-i18n="alaCarteTitle">Need something extra?</h2>
+        </div>
+        <div class="ala-carte-grid">
+          <div><strong data-i18n="ala1Title">Contact Form Setup</strong><span data-i18n="ala1Text">$150 — includes your own account with 50 free entries per month</span></div>
+          <div><strong data-i18n="ala2Title">Additional Scroll Page</strong><span data-i18n="ala2Text">$150 each</span></div>
+          <div><strong data-i18n="ala3Title">Project Gallery Page</strong><span data-i18n="ala3Text">$150 + $50 each project added</span></div>
+          <div><strong data-i18n="ala4Title">Monthly Maintenance</strong><span data-i18n="ala4Text">$150/month with unlimited changes</span></div>
+          <div><strong data-i18n="ala5Title">Picture Updates</strong><span data-i18n="ala5Text">Starting at $50 to add or replace a picture</span></div>
+          <div><strong data-i18n="ala6Title">Custom Changes</strong><span data-i18n="ala6Text">Price varies depending on the request</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="domain-box reveal-section">
+      <div>
+        <p class="eyebrow" data-i18n="domainEyebrow">Domain support</p>
+        <h2 data-i18n="domainTitle">Need a website name?</h2>
+        <p data-i18n="domainText">I can research domain options for your business. You decide whether to purchase the domain, and I can help connect it to your website.</p>
+      </div>
+      <a href="#contact" class="btn primary" data-i18n="askDomains">Ask About Domains</a>
+    </section>
+
+
+    <section class="demo-previews reveal-section" id="demos">
+      <div class="section-heading centered">
+        <p class="eyebrow" data-i18n="demosEyebrow">Demo previews</p>
+        <h2 data-i18n="demosTitle">Preview what your online experience could look like.</h2>
+        <p class="section-description" data-i18n="demosText">Choose a category and explore sample experiences. Each preview opens inside the page, so visitors can close it and keep browsing.</p>
+      </div>
+
+      <div class="filter-tabs" aria-label="Demo filters">
+        <button class="filter-btn active" type="button" data-filter="all" data-i18n="filterAll">All</button>
+        <button class="filter-btn" type="button" data-filter="websites" data-i18n="filterWebsites">Websites</button>
+        <button class="filter-btn" type="button" data-filter="invitations" data-i18n="filterInvitations">Invitations</button>
+      </div>
+
+      <div class="demo-grid filter-grid">
+        <article class="demo-card filter-card" data-category="websites">
+          <img class="demo-photo" src="coffee.png" alt="Website preview on laptop">
+          <div class="demo-icon">✦</div>
+          <h3 data-i18n="demoWebsiteTitle">Website Demo</h3>
+          <p data-i18n="demoWebsiteText">A preview area for a business or service website. Add your live website demo link here when ready.</p>
+          <button class="btn card-btn preview-btn" type="button" data-preview-url="https://badin-and-co.github.io/cafe-mare-demo/#contact" data-i18n="Coffee Website">Coffee Website</button>
+          <button class="btn card-btn preview-btn" type="button" data-preview-url="https://badin-and-co.github.io/Artist/" data-i18n="Artist Website">Artist Website</button>
+          <!-- <button class="btn card-btn disabled-preview" type="button" data-i18n="comingSoonBtn">Coming Soon</button> -->
+        </article>
+
+        <article class="demo-card featured-demo filter-card" data-category="invitations">
+          <img class="demo-photo" src="samples.png" alt="Elegant invitation details on a table">
+          <div class="demo-icon">◆</div>
+          <h3 data-i18n="demoInvitationTitle">Personalized Digital Invitation Demos</h3>
+          <p data-i18n="demoInvitationText">Choose from different invitation styles for weddings, events, and special celebrations.</p>
+          <div class="multi-demo-buttons">
+            <button class="btn card-btn preview-btn" type="button" data-preview-url="https://badin-and-co.github.io/demo-elegant/?guest=guest-name" data-i18n="invitationDemo1">Elegant</button>
+            <button class="btn card-btn preview-btn" type="button" data-preview-url="https://badin-and-co.github.io/Demo-Invitation/" data-i18n="invitationDemo3">Modern</button>
+          </div>
+        </article>
+      </div>
+    </section>
+<!--
+    <section class="projects" id="projects">
+      <div class="section-heading centered">
+        <p class="eyebrow" data-i18n="projectsEyebrow">Projects</p>
+        <h2 data-i18n="projectsTitle">Website project examples coming soon.</h2>
+        <p class="section-description" data-i18n="projectsText">These cards are ready for your future project links so people can preview real websites when you add them.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-tag" data-i18n="comingSoon">Coming Soon</div>
+          <h3 data-i18n="project1Title">Business Website</h3>
+          <p data-i18n="project1Text">A clean site for a small business with services, about, and contact sections.</p>
+          <button class="btn card-btn disabled-preview" type="button" data-i18n="comingSoonBtn">Coming Soon</button>
+        </article>
+        <article class="project-card">
+          <div class="project-tag" data-i18n="comingSoon">Coming Soon</div>
+          <h3 data-i18n="project2Title">Real Estate Website</h3>
+          <p data-i18n="project2Text">A simple promotional website for listings, open houses, and agent information.</p>
+          <button class="btn card-btn disabled-preview" type="button" data-i18n="comingSoonBtn">Coming Soon</button>
+        </article>
+        <article class="project-card">
+          <div class="project-tag" data-i18n="comingSoon">Coming Soon</div>
+          <h3 data-i18n="project3Title">Restaurant Website</h3>
+          <p data-i18n="project3Text">A stylish informational website for menus, hours, location, and contact.</p>
+          <button class="btn card-btn disabled-preview" type="button" data-i18n="comingSoonBtn">Coming Soon</button>
+        </article>
+        <article class="project-card">
+          <div class="project-tag" data-i18n="comingSoon">Coming Soon</div>
+          <h3 data-i18n="project4Title">Personal Brand Website</h3>
+          <p data-i18n="project4Text">A polished online presence for portfolios, services, and personal projects.</p>
+          <button class="btn card-btn disabled-preview" type="button" data-i18n="comingSoonBtn">Coming Soon</button>
+        </article>
+      </div>
+    </section>
+ -->
+    <div class="preview-modal" id="previewModal" aria-hidden="true">
+      <div class="preview-backdrop" data-close-preview></div>
+      <div class="preview-window" role="dialog" aria-modal="true" aria-label="Website preview">
+        <button class="close-preview" type="button" data-close-preview aria-label="Close preview">×</button>
+        <iframe id="previewFrame" title="Website Preview" src="about:blank"></iframe>
+      </div>
+    </div>
+
+    <section class="visual-strip reveal-section" aria-label="Website style inspiration">
+      <figure>
+        <img src="simple.png" alt="Laptop showing a website design">
+        <figcaption data-i18n="caption1">Simple pages that are easy to understand.</figcaption>
+      </figure>
+      <figure>
+        <img src="goals.png" alt="Small team reviewing ideas at a table">
+        <figcaption data-i18n="caption2">Built around your goals, not random trends.</figcaption>
+      </figure>
+      <figure>
+        <img src="ready.png" alt="Clean workspace with computer and notes">
+        <figcaption data-i18n="caption3">Polished, warm, and ready to share.</figcaption>
+      </figure>
+    </section>
+
+    <section class="contact reveal-section" id="contact">
+      <div class="contact-info">
+        <p class="eyebrow" data-i18n="contactEyebrow">Let’s start</p>
+        <h2 data-i18n="contactTitle">Ready to create your website?</h2>
+        <p data-i18n="contactText">Send your information and the type of website you need. I’ll get back to you to schedule your first consultation.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mvzyyqqy" method="POST">
+        <label>
+          <span data-i18n="labelName">Name</span>
+          <input type="text" name="name" data-placeholder-key="namePlaceholder" placeholder="Your name" required>
+        </label>
+        <label>
+          <span data-i18n="labelEmail">Email</span>
+          <input type="email" name="email" placeholder="your@email.com" required>
+        </label>
+        <label>
+          <span data-i18n="labelService">Service Interested In</span>
+          <select name="service" id="serviceSelect">
+            <option value="First Consultation" data-i18n="optConsultation">First Consultation</option>
+            <option value="Basic Package - $399" data-i18n="optBasic">Basic Package</option>
+            <option value="Pro Package - $599" data-i18n="optPro">Pro Package</option>
+            <option value="Elite Package - $1299" data-i18n="optElite">Elite Package</option>
+            <option value="Domain Assistance" data-i18n="optDomain">Domain Assistance</option>
+            <option value="Maintenance Plan" data-i18n="optMaintenance">Maintenance Plan</option>
+            <option value="Personalized Invitations" data-i18n="optInvitations">Personalized Invitations</option>
+          </select>
+        </label>
+        <label>
+          <span data-i18n="labelMessage">Tell me about your website idea</span>
+          <textarea name="message" rows="5" data-placeholder-key="messagePlaceholder" placeholder="Example: I need a website for my business with Home, Services, Gallery, and Contact pages." required></textarea>
+        </label>
+        <button type="submit" class="btn primary full" data-i18n="sendRequest">Send Request</button>
+        <p class="form-message" id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> <span data-i18n="footer">TB. Custom informational websites.</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

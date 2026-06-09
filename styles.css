@@ -1325,17 +1325,25 @@ body::after {
   }
 }
 
+/* FIX mobile service cards 01, 02, 03, 04 */
 @media (max-width: 620px) {
-  .package-card {
-    min-height: auto;
+  .services {
+    grid-template-columns: 1fr !important;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .ala-carte-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
-.menu-toggle {
-  display: none;
+  .service-card {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+  }
+
+  .service-card .icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* DESKTOP */
